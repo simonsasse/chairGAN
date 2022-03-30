@@ -22,6 +22,9 @@ dimension and thus the code had to be adapted accordingly. In addition, the netw
 ## Results :receipt: :chart:
 The results are presented in a GIF shwoing the development of the generated images over time. Unfortunately, no results could be optained 
 that showed chairs in any way.
+
+![Animation of generator output throughout the training](dcgan.gif)
+
 ## Discussion :speech_balloon:
 GANs are hard to train, especially the vanilla GANs published by [Ian Goodfellow *et al* in 2014]( https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf). Reasons for this are modecollabs and XXXX. Additionally, it is very hard 
 to keep the learning progress of the two networks balanced. If this is not the case, mode collabs or XXX can happen.
@@ -29,3 +32,4 @@ Furthermore, the DChairGAN was trained on an Macbook Air m1. There is no stable 
 that uses the GPU of the m1 chip. So the training had to be done on the CPU only and thus was not very fast. 
 ## Presentation 📎
 The slides to the presentation can be found [here](GANS_pres.pdf)
+
